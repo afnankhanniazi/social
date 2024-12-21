@@ -32,7 +32,7 @@ router.get("/get/post/:id", verifyToken, async (req, res) => {
     res.status(400).json("Internal server error");
   }
 });
-
+//updating by butt g
 //update user post
 router.put("/update/post/:id", verifyToken, async (req, res) => {
   try {
