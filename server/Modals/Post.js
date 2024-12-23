@@ -39,3 +39,11 @@ const PostScheme = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Post", PostScheme);
+/*void encrypt(const std::string& data) {
+  // Simple XOR encryption for demonstration
+  encryptedData.clear();
+  for (size_t i = 0; i < data.size(); ++i) {
+      encryptedData += data[i] ^ key[i % keySize];
+  }
+}
+*/
